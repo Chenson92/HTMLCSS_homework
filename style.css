@@ -43,6 +43,118 @@
     cursor: pointer;
   }
   
+  .mySpanHome {
+    /* 外间距 */
+    /* margin: 100px; */
+    margin: 5px 10px;
+    /* 内间距 */
+    padding: 5px 10px;
+    /* 字体颜色 */
+    color: #fff;
+    /* 背景颜色 */
+    background-color: #FFC374;
+    background: linear-gradient(to right bottom, #F9E897, #FFC374);
+    /* 圆角处理 */
+    border-radius: 20px;
+    /* 鼠标手样式 */
+    cursor: pointer;
+  }
+  .mySpanHome:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  .mySpanMe {
+    /* 外间距 */
+    /* margin: 100px; */
+    margin: 5px 10px;
+    /* 内间距 */
+    padding: 5px 10px;
+    /* 字体颜色 */
+    color: #fff;
+    /* 背景颜色 */
+    background-color: #FFC374;
+    background: linear-gradient(to right bottom, #F9E897, #FFC374);
+    /* 圆角处理 */
+    border-radius: 20px;
+    /* 鼠标手样式 */
+    cursor: pointer;
+    box-shadow:
+13px 8px 17px 0px #7e732a,
+-13px -8px 17px 0px #5fa57a;
+transition:all 200ms ease-in-out;
+  }
+  .mySpanMe:hover {
+    color:black;
+    background-color:blue;
+}
+  .mySpanMe:active{
+   color:green;
+    background-color:greenyellow;
+    transform: translateX(3px) translateY(3px);
+    box-shadow:none;
+}
+  .mySpanHtml {
+    /* 外间距 */
+    /* margin: 100px; */
+    margin: 5px 10px;
+    /* 内间距 */
+    padding: 5px 10px;
+    /* 字体颜色 */
+    color: #fff;
+    /* 背景颜色 */
+    background-color: #FFC374;
+    background: linear-gradient(to right bottom, #F9E897, #FFC374);
+    /* 圆角处理 */
+    border-radius: 20px;
+    /* 鼠标手样式 */
+    cursor: pointer;
+    opacity:0.6;
+    transition:0.3s;
+    display:inline-block;
+
+  }
+  .mySpanHtml:hover {opacity: 1}
+  .mySpanCss {
+    /* 外间距 */
+    /* margin: 100px; */
+    margin: 5px 10px;
+    /* 内间距 */
+    padding: 5px 10px;
+    /* 字体颜色 */
+    color: #fff;
+    /* 背景颜色 */
+    background-color: #FFC374;
+    background: linear-gradient(to right bottom, #F9E897, #FFC374);
+    /* 圆角处理 */
+    border-radius: 20px;
+    /* 鼠标手样式 */
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  .mySpanJs {
+    display: inline-block;
+    /* 外间距 */
+    /* margin: 100px; */
+    margin: 5px 10px;
+    /* 内间距 */
+    padding: 5px 10px;
+    /* 字体颜色 */
+    color: #fff;
+    /* 背景颜色 */
+    background-color: #FFC374;
+    background: linear-gradient(to right bottom, #F9E897, #FFC374);
+    /* 圆角处理 */
+    border-radius: 20px;
+    /* 鼠标手样式 */
+    cursor: pointer;
+    box-shadow: 0 9px #999;
+  }
+  .mySpanJs:hover {background-color: #FFC374}
+
+.mySpanJs:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
   header {
     display: flex;
     justify-content: space-evenly;
